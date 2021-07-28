@@ -24,9 +24,7 @@ public class Usuario implements Serializable {
 		super();
 	}
 
-	public Usuario(Integer id, String nome, String email) {
-		super();
-		this.id = id;
+	public Usuario(String nome, String email) {
 		this.nome = nome;
 		this.email = email;
 	}
